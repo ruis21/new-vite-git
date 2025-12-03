@@ -15,6 +15,8 @@ import Context from './hook/useContext/Main'
 
 import UseMemo from './hook/useMemo'
 import UseCallback from './hook/useCallback/useCallback'
+import ReactMemo from './hook/React.memo/reactMemo'
+import UseReducer from './hook/useReducer'
 
 // const router = createBrowserRouter([
 //   {
@@ -51,7 +53,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Ref /> */}
     {/* <Context /> */}
     {/* <UseMemo /> */}
-    <UseCallback />
+    {/* <UseCallback /> */}
+    {/* <ReactMemo /> */}
+    <UseReducer />
 
   </StrictMode>,
 )
