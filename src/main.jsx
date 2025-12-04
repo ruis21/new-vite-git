@@ -17,6 +17,8 @@ import UseMemo from './hook/useMemo'
 import UseCallback from './hook/useCallback/useCallback'
 import ReactMemo from './hook/React.memo/reactMemo'
 import UseReducer from './hook/useReducer'
+import CustomHook from './hook/customhook/customHook'
+import './App.css'
 
 // const router = createBrowserRouter([
 //   {
@@ -55,7 +57,8 @@ createRoot(document.getElementById('root')).render(
     {/* <UseMemo /> */}
     {/* <UseCallback /> */}
     {/* <ReactMemo /> */}
-    <UseReducer />
+    {/* <UseReducer /> */}
+    <CustomHook />
 
   </StrictMode>,
 )
